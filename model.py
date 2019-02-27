@@ -4,8 +4,12 @@ import os
 
 from tkinter.filedialog import askopenfilename
 
+
+
 def donothing():
 	print("It's yet to come !")
+	
+	
 
 def findfile():
 	#top.withdraw()
@@ -31,13 +35,17 @@ submenu.add_command(label="New Project",command = donothing)
 submenu.add_command(label="Find more",command=donothing)
 #submenu.add_separator()
 
+
+
 view = Menu(menu,background="#03a303", foreground='black',activebackground='#05bc05', activeforeground='black')
 menu.add_cascade(label="View",menu=view)
 view.add_command(label="View Source",command=donothing)
 
+
 exit = Menu(menu,background="#d60202", foreground='white',activebackground='#7c2704', activeforeground='white')
 menu.add_cascade(label="Exit",menu=exit)
 exit.add_command(label="Exit",command=top.quit)
+
 
 label1 = Label(top, text = "First You need to select a file !\nPress the button to select a file", bg = "red", fg = "black")
 label1.pack(padx =50, pady = 10)
@@ -49,6 +57,7 @@ button1.pack(padx=50 , pady= 40)
 img = Image.open("brain.png")
 img2 = img.resize((200,200),Image.ANTIALIAS)
 img3 = ImageTk.PhotoImage(img2)
+
 panel = Label(top,image = img3)
 panel.pack()
 

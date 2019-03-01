@@ -52,5 +52,6 @@ The user can run the [main program](https://github.com/Ratna04priya/Image-Browse
 This program can be used in various ways 
 >- User takes the image input file of any extension and use them in other purpose
 >- Like adding buttons which may run the other big programs in backend like analysing the data, etc.
+>- More menus can be added for extended functionalities.
 
 

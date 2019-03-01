@@ -5,7 +5,8 @@
 **This browser works as the a displayer for the Stored Graphical Images.**
 >1. It is used for handling various file formats.
 >2. Basic Viewing operations such as zooming and creating pan icon.
->3. Can have a full screen display
+>3. Can have a full screen display.
+>4. Can make a direct exit using Exit menu.
 
 ### Features Used
 
@@ -41,5 +42,15 @@ The OS module in Python provides a way of using operating system dependent funct
 *Use*
 
     import os
+
+### Result
+
+The user can run the [main program](https://github.com/Ratna04priya/Image-Browser/blob/master/model.py) and can browse , inputs the image file and gets a file dialog where the user can browse the image file  and click on open , which shows the selected image with mentioned functionalities.
+
+### Scope
+
+This program can be used in various ways 
+>User takes the image input file of any extension and use them in other purpose
+>Like adding buttons which may run the other big programs in backend like analysing the data, etc.
 
 
